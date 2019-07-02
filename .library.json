@@ -1,0 +1,40 @@
+{
+    "name": "ESP32-TFT_eSPI", 
+    "version": "1.4.11", 
+    "keywords": [
+        "tft", 
+        "epaper", 
+        "display", 
+        "esp8266", 
+        "nodemcu", 
+        "esp32", 
+        "m5stack", 
+        "ili9341", 
+        "st7735", 
+        "ili9163", 
+        "s6d02a1", 
+        "ili9486", 
+        "st7789"
+    ], 
+    "description": "A TFT and ePaper SPI graphics library for ESP8266 and ESP32", 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/Afantor/ESP32-TFT_eSPI"
+    }, 
+    "authors": [
+        {
+            "email": "bodmer@anola.net", 
+            "url": null, 
+            "maintainer": true, 
+            "name": "Bodmer"
+        }
+    ], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "platforms": [
+        "espressif8266", 
+        "espressif32"
+    ], 
+    "id": 1559
+}
