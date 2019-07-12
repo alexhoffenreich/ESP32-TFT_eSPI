@@ -30,7 +30,7 @@ void setup() {
   Serial.begin(115200);
 
   // Set all chip selects high to avoid bus contention during initialisation of each peripheral
-  digitalWrite(22, HIGH); // Touch controller chip select (if used)
+  digitalWrite(32, HIGH); // Touch controller chip select (if used)
   digitalWrite(15, HIGH); // TFT screen chip select
   digitalWrite( 5, HIGH); // SD card chips select, must use GPIO 5 (ESP32 SS)
 
